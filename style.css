@@ -1,0 +1,67 @@
+/* Colors and fonts */
+
+body {background-color: rgb(200, 200, 300);}
+
+
+p {color: rgb(0, 0, 200);
+	font-size: 19px;
+	font-family: futura;
+}
+
+h1 {color: rgb(94, 21, 21);
+	letter-spacing: 2;
+	text-decoration: none;
+	text justify: center;
+	font-family: Founders Grotesk text Regular;
+	font-size: 42px;
+	font-weight: 290;
+
+	text-align: center;
+}
+
+h2 {font-family: candara;
+	font-weight: lighter;
+	text-decoration: underline;
+	color: rgb(26, 73, 119);
+
+}
+
+a {text-decoration: none;
+	color: rgb(200, 30, 104);
+	font-size: 22px;
+	transition: color 0.6s ease;
+}
+a:hover {color: ghostwhite;}
+
+#logo {justify-content: center;
+}
+
+#logo {height: 375;
+	width: 368; 
+	border-radius: 1750px;
+	box-shadow: 5px 5px 3px black;
+}
+
+div {margin: 40px;
+	text-align: center;
+}
+
+li {display: inline;
+	padding: 10px;
+}
+li {list-style: none;
+	padding-left: 0px;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+.element-design {
+	background-color: lightblue;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	margin: 20px;
+}
